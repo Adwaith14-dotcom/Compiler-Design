@@ -1,0 +1,17 @@
+name: Run Compiler Program
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Compile C++ program
+      run: g++ lexical_analyzer/lexical.cpp -o lexical
+
+    - name: Run program
+      run: echo "a+b*c" | ./lexical
