@@ -6,6 +6,7 @@ In this project, multiple compiler construction experiments are implemented to i
 The implementations included in this repository are:
 
 1.Lexical Analyzer
+   
    Breaks input source code into tokens such as keywords, identifiers, numbers, operators, and special symbols.
 2.Regular Expression to NFA
    Converts a given regular expression into a Non-deterministic Finite Automaton.
