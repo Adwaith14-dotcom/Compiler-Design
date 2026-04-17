@@ -5,54 +5,37 @@ In this project, multiple compiler construction experiments are implemented to i
 
 The implementations included in this repository are:
 
-1. Lexical Analyzer
-
-The lexical analyzer scans the input source code and breaks it into tokens such as keywords, identifiers, numbers, operators, and special symbols. It represents the first phase of the compiler, responsible for converting raw text into meaningful tokens.
-
-2. Regular Expression to NFA
-
-This module demonstrates the construction of a Non-deterministic Finite Automaton (NFA) from a given regular expression. This process is important in the implementation of lexical analyzers and pattern recognition in compilers.
-
-3. NFA to DFA Conversion
-
-This program converts a Non-deterministic Finite Automaton (NFA) into an equivalent Deterministic Finite Automaton (DFA) using standard conversion techniques. DFA simplifies pattern matching and is used in lexical analysis.
-
-4. Ambiguity in Grammar
-
-This program demonstrates ambiguous grammar and shows how a single input string can generate multiple parse trees. Understanding ambiguity is important in designing grammars for programming languages.
-
-5. Grammar Transformation
-
-This module implements techniques such as:
-
-Elimination of Left Recursion
-
-Left Factoring
-
-These transformations are required to convert grammars into forms suitable for predictive parsing.
-
-6. FIRST and FOLLOW Computation
-
-This program computes the FIRST and FOLLOW sets for a given grammar. These sets are essential for constructing predictive parsing tables and for designing LL(1) parsers.
-
-7. Predictive Parsing
-
-This implementation demonstrates a Predictive Parser, which parses input strings using a parsing table constructed from FIRST and FOLLOW sets. Predictive parsing is an important top-down parsing technique used in compiler construction.
+1.Lexical Analyzer
+   Breaks input source code into tokens such as keywords, identifiers, numbers, operators, and special symbols.
+2.Regular Expression to NFA
+   Converts a given regular expression into a Non-deterministic Finite Automaton.
+3.NFA to DFA Conversion
+   Transforms an NFA into an equivalent DFA for efficient pattern recognition.
+4.Ambiguity in Grammar
+   Demonstrates ambiguous grammars and multiple parse trees.
+5.Grammar Transformation 
+   Includes elimination of left recursion and left factoring for predictive parsing.
+6.FIRST and FOLLOW Computation
+   Computes FIRST and FOLLOW sets required for parsing table construction.
+7.Predictive Parsing
+   Implements LL(1) parsing using parsing tables.
+8.LR(0) Items
+   Demonstrates item sets used in bottom-up parsing techniques.
+9.Postfix Conversion
+   Converts infix expressions into postfix form.
+10.Intermediate Code Generation
+   Generates Quadruple, Triple, and Indirect Triple representations.
+11.Simple Code Generator
+   Produces basic pseudo assembly instructions.
+12.DAG Representation
+   Shows optimization using Directed Acyclic Graph (common subexpression elimination).
+13.Data Flow Analysis
+   Demonstrates definition and usage of variables in a program.
+14.Storage Allocation Strategies
+   Explains static, stack, and heap memory allocation.
 
 Objective of the Project
 
-The objective of this repository is to provide practical implementations of theoretical compiler design concepts. Through these experiments, the following topics are studied and practiced:
+The objective of this project is to implement and understand the major phases of a compiler, including tokenization, grammar processing, parsing, and intermediate code generation. It provides hands-on experience in automata theory, parsing techniques, and program analysis.
 
-Lexical analysis
-
-Finite automata theory
-
-Regular expressions
-
-Grammar transformations
-
-Parsing techniques
-
-Syntax analysis
-
-These implementations help in understanding how a compiler processes a programming language step by step, starting from tokenization to syntax validation
+These implementations help in understanding how a compiler processes a programming language step by step, starting from tokenization to syntax validation.
