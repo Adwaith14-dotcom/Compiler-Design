@@ -6,45 +6,59 @@ In this project, multiple compiler construction experiments are implemented to i
 The implementations included in this repository are:
 
 1.Lexical Analyzer
+
 Breaks input source code into tokens such as keywords, identifiers, numbers, operators, and special symbols. 
    
 2.Regular Expression to NFA
+
 Converts a given regular expression into a Non-deterministic Finite Automaton.
    
 3.NFA to DFA Conversion
+
 Transforms an NFA into an equivalent DFA for efficient pattern recognition.
    
 4.Ambiguity in Grammar
+
 Demonstrates ambiguous grammars and multiple parse trees.
    
 5.Grammar Transformation 
+
 Includes elimination of left recursion and left factoring for predictive parsing.
    
 6.FIRST and FOLLOW Computation
+
 Computes FIRST and FOLLOW sets required for parsing table construction.
    
 7.Predictive Parsing
+
 Implements LL(1) parsing using parsing tables.
    
 8.LR(0) Items
+
 Demonstrates item sets used in bottom-up parsing techniques.
    
 9.Postfix Conversion
+
 Converts infix expressions into postfix form.
    
 10.Intermediate Code Generation
+
 Generates Quadruple, Triple, and Indirect Triple representations.
    
 11.Simple Code Generator
+
 Produces basic pseudo assembly instructions.
    
 12.DAG Representation
+
 Shows optimization using Directed Acyclic Graph (common subexpression elimination).
    
 13.Data Flow Analysis
+
 Demonstrates definition and usage of variables in a program.
    
 14.Storage Allocation Strategies
+
 Explains static, stack, and heap memory allocation.
 
 Objective of the Project
